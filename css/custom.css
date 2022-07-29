@@ -1,0 +1,189 @@
+/******** Google Fonts ********/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Roboto+Condensed:wght@300;700&family=Rubik:wght@600&display=swap');
+
+/******** Custom Variables ********/
+
+:root {
+
+  /* colors */
+  --c-primary: #cdac82;
+  --c-secondary: #47394a;
+
+  /* --c-white: #ffffff;
+  --c-blue: #0012A2;
+  --c-red: #F12D2D;
+  --c-black-text: #000000;
+  --c-light-grey: #C0C0C0;
+  --c-dark-grey: #4F4F4F;
+  --c-primary-text: #FF5600;
+  --c-secondary-text: #2D2D2D;
+  --c-semi-grey: #666666; */
+
+  /* typography */
+  --ff-primary: 'Rubik', sans-serif;
+  --ff-secondary: 'Roboto Condensed', sans-serif;
+  --ff-tertiary: 'IBM Plex Sans', sans-serif;
+}
+
+
+/******** CSS Resets ********/
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a:focus, a:hover {
+  outline: none;
+}
+
+a {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: var(--c-black-text);
+  line-height: 18px;
+  font-weight: 400;
+}
+
+body {
+  font-family: var(--ff-tertiary);
+  font-size: 14px;
+  color: var(--c-black-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ff-primary);
+  margin-bottom: 0;
+}
+
+/******** Utility Classes ********/
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.custom-pad {
+  padding: 120px 0;
+}
+
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-start=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-end=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+.custom-header {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+}
+.custom-header .navbar {
+  padding: 0;
+}
+.navbar-brand {
+  position: relative;
+  padding-left: var(--bs-gutter-x,.75rem);
+}
+.navbar-brand::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: var(--c-secondary);
+  left: 0px;
+  height: 100%;
+  z-index: -1;
+}
+.navbar-brand img {
+  padding: 20px 92px 20px 20px;
+}
+.navbar-toggler {
+  margin: 0px;
+  padding: 0px;
+  height: 24px;
+  width: 60px;
+  border-radius: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navbar-toggler .icon-bar { width: 60px;height: 2px; background: #fff;transition: .5s ease;}
+.offcanvas {background-color: var(--c-secondary);}
+.navbar-toggler.toggle-wrap {height: 16px;}
+.custom-navbar-toggle:not(.toggle-wrap) .icon-bar {
+  margin-right: 0;
+}
+.custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(1)  {
+  width: 30px;
+}
+.custom-navbar-toggle .icon-bar:nth-child(2)  {
+  width: 41px;
+}
+.custom-navbar-toggle .icon-bar:nth-child(3)  {
+  width: 30px;
+}
+.custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(1){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
+.custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(2){opacity: 0}
+.custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(3){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================Feature-section-css-DP============================*/
+.custom-feature{
+  background-color: #faf7f2;
+}
+  
