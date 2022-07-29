@@ -143,3 +143,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-end=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+.custom-header  {
+  position: fixed;
+  width: 100%;
+}
+.navbar-brand {
+  position: relative;
+  padding-left: var(--bs-gutter-x,.75rem);
+}
+.navbar-brand::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: var(--c-secondary);
+  left: 0px;
+  height: 100%;
+  z-index: -1;
+}
+.navbar-brand img {
+  padding: 20px 92px 20px 20px;
+}
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
