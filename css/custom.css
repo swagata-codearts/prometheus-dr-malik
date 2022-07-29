@@ -84,7 +84,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custom-pad {
+<<<<<<< HEAD
   padding: 120px 0;
+=======
+  padding: 60px 0;
+>>>>>>> 99ddab54ed7744b2e89f156c937421e30dae9ab4
 }
 
 
@@ -148,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 .custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(1){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
 .custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(2){opacity: 0}
 .custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(3){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
+<<<<<<< HEAD
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
 
@@ -187,3 +192,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #faf7f2;
 }
   
+=======
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+>>>>>>> 99ddab54ed7744b2e89f156c937421e30dae9ab4

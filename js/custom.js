@@ -15,6 +15,7 @@ jQuery('#custom-owl').owlCarousel({
         }
     }
 });
+<<<<<<< HEAD
 jQuery('#custom-feature-owl').owlCarousel({
     loop:true,
     margin:10,
@@ -32,6 +33,8 @@ jQuery('#custom-feature-owl').owlCarousel({
     }
 });
 
+=======
+>>>>>>> 99ddab54ed7744b2e89f156c937421e30dae9ab4
 jQuery(document).ready(function(){
     jQuery('.custom-navbar-toggle').click(function(){
         jQuery(this).toggleClass('toggle-wrap')
