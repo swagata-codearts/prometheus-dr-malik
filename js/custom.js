@@ -15,3 +15,8 @@ jQuery('#custom-owl').owlCarousel({
         }
     }
 });
+jQuery(document).ready(function(){
+    jQuery('.custom-navbar-toggle').click(function(){
+        jQuery(this).toggleClass('toggle-wrap')
+    })
+});
