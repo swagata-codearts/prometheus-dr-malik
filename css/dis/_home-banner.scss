@@ -1,0 +1,199 @@
+.custom-banner{
+    position: relative;
+        z-index: 9;
+    .banner-ticket {
+        position: absolute;
+        bottom: 35px;
+        right: 0px;
+        
+      }
+    .carousel-inner{
+
+        .carousel-item{
+
+            img{
+                height: 614px;
+                object-fit: cover;
+                width: 100%;
+                clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+            }
+            .custom-caption {
+                width: 100%;
+                left: 0;
+                text-align: left;
+                bottom: 100px;
+
+                h2{
+                    font-size: 56px;
+                    font-weight: 800;
+                    margin-bottom: 20px;
+                }
+                .custom_btn{
+                    font-size:22px;
+                    display: inline-block;
+                    padding: 14px 26px;
+                }
+              }
+        }
+    }
+}
+@media (min-width: 1920px) and (max-width: 2500px){
+    .custom-banner{
+        .carousel-inner{ 
+            .carousel-item{               
+                .custom-caption{
+                    bottom: 240px; 
+                }  
+            }
+        }        
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+    .custom-banner{
+        .carousel-inner{
+            .carousel-item{                
+                .custom-caption{
+                    bottom: 152px;
+                    h2{
+                        font-size: 50px;line-height: 52px;
+                    }
+                    .custom_btn{
+                        padding: 12px 26px;
+                    }
+                }  
+            }
+        }
+        .banner-ticket{
+            bottom: 5%;
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .custom-banner{
+        .carousel-inner{
+
+            .carousel-item{
+
+                .custom-caption{
+                    bottom: 130px;
+                    h2{
+                        font-size: 50px;line-height: 52px;
+                    }
+                    .custom_btn{
+                        padding: 12px 26px;
+                    }
+                }  
+            }
+        }
+        .banner-ticket{
+            bottom: 5.6%;
+        }
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .custom-banner{
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    height: 480px;
+                }
+                .custom-caption{
+                    h2{
+                        font-size: 40px;
+                        padding-right: 185px;
+                    }
+                    .custom_btn {font-size: 16px;padding: 12px 28px;}
+                }
+            }
+        }
+        .banner-ticket {bottom: 24px;}
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .custom-banner{
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    height: 480px;
+                }
+                .custom-caption{
+                    h2{
+                        font-size: 38px;
+                        padding-right: 30px;
+                    }
+                    .custom_btn {font-size: 16px;padding: 12px 28px;}
+                }
+            }
+        }
+        .banner-ticket {bottom: 24px;}
+    }
+}
+@media only screen and (max-width: 576px) {
+    .custom-banner{
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    height: 450px;
+                    clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
+                    object-position: 70% 100%;
+                }
+                .custom-caption{
+                    h2{
+                        font-size: 30px;
+                        padding-right: 0px;
+                    }
+                    .custom_btn {font-size: 14px;padding: 12px 28px;}
+                }
+            }
+        }
+        .banner-ticket {
+            img{
+                width: 160px;
+            }
+            bottom: 20px;
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .custom-banner{
+        .carousel-inner{
+            .carousel-item{
+                .custom-caption{
+                    h2{
+                        line-height: 44px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 420px) {
+    .custom-banner{
+        .carousel-inner{
+            .carousel-item{
+                .custom-caption{
+                    h2{
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+@media only screen and (max-width: 390px) {
+    .custom-banner{
+        .carousel-inner{
+            .carousel-item{
+                .custom-caption{
+                    h2{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
