@@ -17,7 +17,7 @@ jQuery('#custom-owl').owlCarousel({
 });
 jQuery('#custom-feature-owl').owlCarousel({
     loop:true,
-    margin:10,
+    margin:40,
     nav:true,
     responsive:{
         0:{
