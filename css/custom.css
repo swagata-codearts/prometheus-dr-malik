@@ -9,6 +9,10 @@
   /* colors */
   --c-primary: #cdac82;
   --c-secondary: #47394a;
+  --c-primary-dark: #af8e64;
+
+  --tc-beige: #d7d7d7;
+  
 
   /* --c-white: #ffffff;
   --c-blue: #0012A2;
@@ -86,7 +90,16 @@ h1, h2, h3, h4, h5, h6 {
 .custom-pad {
   padding: 60px 0;
 }
-
+.custom-button {
+  margin-right: 55px;
+  padding: 20px 40px;
+  background-color: var(--c-primary);
+  color: #000;
+  font-family: var(--ff-secondary);
+  font-weight: 700;
+  font-size: 16px;
+  border-bottom: 3px solid var(--c-primary-dark);
+}
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-start=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
@@ -94,10 +107,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
+/* HEADER SECTION */
 .custom-header {
   position: absolute;
   z-index: 999;
   width: 100%;
+}
+.custom-header .container-fluid {
+  max-width: 1780px;
 }
 .custom-header .navbar {
   padding: 0;
@@ -106,9 +123,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-left: var(--bs-gutter-x,.75rem);
 }
-.navbar-brand::after {
+.custom-header::after {
   content: '';
-  width: 100%;
+  width: 25%;
   position: absolute;
   top: 0;
   background-color: var(--c-secondary);
@@ -119,6 +136,21 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand img {
   padding: 20px 92px 20px 20px;
 }
+.custom-navbar-right {
+  display: flex;
+  align-items: center;
+}
+.custom-navbar-tel {
+  margin-right: 60px;
+  color: var(--tc-beige);
+  font-family: var(--ff-tertiary);
+  font-size: 21px;
+font-weight: 400;
+}
+.custom-navbar-tel span {
+  padding-right: 15px;
+}
+
 .navbar-toggler {
   margin: 0px;
   padding: 0px;
@@ -148,4 +180,48 @@ h1, h2, h3, h4, h5, h6 {
 .custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(1){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
 .custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(2){opacity: 0}
 .custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(3){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
+
+
+
+/* BANNER SECTION */
+.banner-left-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-top: 80px;
+}
+.banner-left-wrap .top-text p {
+  writing-mode: sideways-lr;
+  font-family: var(--ff-secondary);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.1px;
+  color: #454545;
+}
+.banner-left-wrap .bottom-text a {
+  writing-mode: sideways-lr;
+  font-family: var(--ff-secondary);
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: #454545;
+  
+}
+.banner-left-wrap .bottom-text a span {
+  margin-top: 16px;
+}
+.banner-socials {
+  margin-top: 74px;
+  margin-bottom: 50px;
+}
+.banner-socials li {
+  padding-bottom: 25px;
+}
+.banner-socials li a {
+  color: #a19ca1;
+}
+.banner-socials li a i {
+  font-size: 15px;
+}
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
