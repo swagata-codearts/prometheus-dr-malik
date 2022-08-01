@@ -119,19 +119,18 @@ h1, h2, h3, h4, h5, h6 {
 .custom-header .navbar {
   padding: 0;
 }
-.navbar-brand {
-  position: relative;
-  padding-left: var(--bs-gutter-x,.75rem);
-}
-.custom-header::after {
-  content: '';
-  width: 25%;
-  position: absolute;
-  top: 0;
+.sw-brand {
   background-color: var(--c-secondary);
-  left: 0px;
+  position: relative;
+}
+.sw-brand::after {
+  content: '';
+  position: absolute;
+  left: -4000px;
   height: 100%;
-  z-index: -1;
+  width: 4000px;
+  background-color: var(--c-secondary);
+  top: 0;
 }
 .navbar-brand img {
   padding: 20px 92px 20px 20px;
@@ -184,6 +183,10 @@ font-weight: 400;
 
 
 /* BANNER SECTION */
+.banner-section .carousel-item img {
+  height: 964px;
+  object-fit: cover;
+}
 .banner-left-wrap {
   display: flex;
   align-items: center;
