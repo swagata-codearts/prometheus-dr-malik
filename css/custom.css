@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custom-pad {
-  padding: 60px 0;
+  padding: 120px 0;
 }
 .custom-button {
   margin-right: 55px;
@@ -182,6 +182,7 @@ font-weight: 400;
 
 
 
+
 /* BANNER SECTION */
 .banner-section .carousel-item img {
   height: 964px;
@@ -228,3 +229,43 @@ font-weight: 400;
   font-size: 15px;
 }
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================Feature-section-css-DP============================*/
+.custom-feature{
+  background-color: #faf7f2;
+}
+  
+
