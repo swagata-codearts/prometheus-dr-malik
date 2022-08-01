@@ -180,9 +180,30 @@ font-weight: 400;
 .custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(2){opacity: 0}
 .custom-navbar-toggle.toggle-wrap .icon-bar:nth-child(3){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 
-
-
-
+.custom-navbar-right .offcanvas {
+  width: 100%;
+}
+.custom-navbar-right .offcanvas-body {
+  flex-grow: unset;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+.custom-navbar-right .offcanvas-body .navbar-nav .nav-item  .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 36px;
+  font-family: var(--ff-secondary);
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.custom-navbar-right .offcanvas-body .navbar-nav .nav-item:last-child  .nav-link  {
+  margin-bottom: 0;
+}
 /* BANNER SECTION */
 .banner-section .carousel-item img {
   height: 964px;
@@ -215,9 +236,16 @@ font-weight: 400;
 .banner-left-wrap .bottom-text a span {
   margin-top: 16px;
 }
+.top-text {
+  margin-right: 47px;
+}
 .banner-socials {
   margin-top: 74px;
   margin-bottom: 50px;
+  margin-right: 47px;
+}
+.bottom-text {
+  margin-right: 47px;
 }
 .banner-socials li {
   padding-bottom: 25px;
@@ -228,6 +256,62 @@ font-weight: 400;
 .banner-socials li a i {
   font-size: 15px;
 }
+.custom-carousel-caption  {
+  width: 50%;
+top: 35%;
+right: unset;
+bottom: unset;
+text-align: left;
+left: 125px;
+}
+.custom-carousel-caption h5 {
+  text-align: left;
+  font-family: var(--ff-primary);
+  font-weight: 600;
+  font-size: 69px;
+  line-height: 93px;
+}
+.custom-carousel-caption p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 97px;
+  color: #d7d7d7;
+  margin-bottom: 25px;
+}
+.banner-right-wrap .carousel-indicators {
+  flex-direction: column;margin-right: 7%;
+  bottom: 400px;
+    
+}
+.carousel-indicators .custom-carousel-indicator .active {
+  width: 60px;
+}
+.custom-carousel-indicator  {
+  margin-right: 0;
+  display: flex;
+flex-direction: column;
+}
+.custom-carousel-indicator li button {
+  margin-right: 18px !important;
+}
+.banner-right-wrap .custom-carousel-indicator li {
+ 
+color: #fff;
+font-family: var(--ff-secondary);
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+margin-right: 0;
+align-items: center;
+margin-bottom: 6px;
+}
+
+.banner-right-wrap .container-fluid {
+  max-width: 1780px;
+}
+
+
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
