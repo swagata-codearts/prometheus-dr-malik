@@ -1,6 +1,6 @@
 /******** Google Fonts ********/
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Roboto+Condensed:wght@300;700&family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Roboto+Condensed:wght@300;700&family=Rubik:wght@300;600&display=swap');
 
 /******** Custom Variables ********/
 
@@ -10,6 +10,8 @@
   --c-primary: #cdac82;
   --c-secondary: #47394a;
   --c-primary-dark: #af8e64;
+
+  --c-footer-bg: #222222;
 
   --tc-beige: #d7d7d7;
   
@@ -100,6 +102,24 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   border-bottom: 3px solid var(--c-primary-dark);
 }
+.custom-heading {
+
+}
+.custom-heading::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: red;
+}
+.custom-heading .section-heading {
+  font-family: var(--ff-primary);
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 58px;
+  color: #333334;
+}
+
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-start=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
@@ -316,37 +336,6 @@ margin-bottom: 6px;
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ HOMEPAGE START 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*===============================Feature-section-css-DP============================*/
 .custom-feature{
   background-color: #faf7f2;
@@ -385,3 +374,109 @@ margin-bottom: 6px;
   font-weight: 600;
 }
 
+/* BENEFITS TO WORK SECTION START */
+
+.custom-benefits-to-work .custom-benefits-left .image-w img {
+  width: 100%;
+  padding-left: 53px;
+}
+.watch-video-section {
+  background-color: var(--c-secondary);
+  padding: 35px 45px 35px 50px;
+  color: #fff;
+  margin-right: 100px;
+  margin-top: -85px;
+z-index: 999;
+position: relative;
+}
+.watch-video-section .video span {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  font-size: 13px;
+  text-align: center;
+  line-height: 32px;
+  margin-left: 20px;
+}
+.watch-video-section h4 {
+  font-family: var(--ff-secondary);
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 35px;
+}
+.watch-video-section .video {
+  text-transform: uppercase;
+
+}
+.custom-heading .section-heading {
+  font-family: var(--ff-primary);
+  font-weight: 600;
+  font-size: 47px;
+}
+.custom-benefits-right {
+  padding-left: 54px;
+}
+/* BENEFITS TO WORK SECTION START */
+
+
+
+/* FOOTER SECTION START */
+.custom-footer  {
+  background-color: var(--c-footer-bg);
+}
+.custom-footer-top {
+  
+  padding-top: 110px;
+  padding-bottom: 80px;
+}
+.custom-footer-top .container-fluid {
+  max-width: 1560px;
+  width: 100%;
+}
+.custom-footer-top .footer-content {
+  color: #fff;
+}
+.custom-footer-top .footer-content .footer-heading h4 {
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 46px;
+  margin-bottom: 28px;
+}
+.custom-footer-top .footer-content .footer-text-w li a,
+.custom-footer-top .footer-content .footer-text-w li a p {
+  font-family: var(--ff-tertiary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 37px;
+  color: #bababa;
+  text-transform: capitalize;
+}
+
+.custom-footer-top .footer-content .quick-link-list {
+  column-count: 2;
+}
+.custom-footer-top .footer-content .footer-contact-us li a{
+  display: flex;
+  align-items: center;
+}
+.custom-footer-top .footer-content .footer-contact-us li a span {
+  flex: 0 0 10%;
+}
+.custom-footer-top .footer-content .footer-contact-us li a p {
+  flex: 0 0 90%;
+}
+.footer-bottom .footer-copyright {
+  border-top: 1px solid #454545;
+  padding: 24px 0 22px;
+}
+.footer-bottom .footer-copyright p {
+  color: #bababa;
+  font-family: var(--ff-primary);
+  font-weight: 300;
+  line-height: 37px;
+}
+/* FOOTER SECTION END  */
