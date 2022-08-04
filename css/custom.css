@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 120px 0;
 }
 .custom-button {
+  display: inline-block;
   margin-right: 55px;
   padding: 20px 40px;
   background-color: var(--c-primary);
@@ -101,16 +102,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-size: 16px;
   border-bottom: 3px solid var(--c-primary-dark);
+  text-transform: uppercase;
 }
 .custom-heading {
-
+  position: relative;
+  padding-bottom: 35px;
 }
 .custom-heading::after {
   content: '';
   position: absolute;
-  width: 30px;
-  height: 2px;
-  background-color: red;
+  width: 33px;
+  height: 3px;
+  background-color: #cdac82;
+  bottom: 0;
 }
 .custom-heading .section-heading {
   font-family: var(--ff-primary);
@@ -119,7 +123,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 58px;
   color: #333334;
 }
-
+.custom-heading .sub-heading {
+  color: #483949;
+  font-size: 16px;
+  line-height: 35px;
+  font-family: var(--ff-secondary);
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-start=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
@@ -418,9 +430,51 @@ position: relative;
 .custom-benefits-right {
   padding-left: 54px;
 }
+.custom-benefits-content {
+  padding-top: 46px;
+}
+.custom-benefits-content h4 {
+  font-family: var(--ff-secondary);
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: #362937;
+  line-height: 27px;
+}
+.custom-benefits-content p {
+  font-family: var(--ff-tertiary);
+  font-weight: 300;
+  color: #757575;
+  font-size: 17px;
+  line-height: 33px;
+  margin-bottom: 40px;
+}
 /* BENEFITS TO WORK SECTION START */
 
+/* WHY CHOOSE US SECTION */
 
+.custom-why-choose-us {
+  background-color: #f8f9fa;
+}
+.cu-title h4 {
+  font-family: var(--ff-primary);
+  font-weight: 600;
+  color: #362937;
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 27px;
+}
+.cus-icon img {
+  margin-bottom: 27px;
+}
+.cu-body p {
+  font-family: var(--ff-tertiary);
+  font-size: 17px;
+  line-height: 33px;
+  color: #757575;
+  font-weight: 300;
+}
+/* WHY CHOOSE US SECTION */
 
 /* FOOTER SECTION START */
 .custom-footer  {
