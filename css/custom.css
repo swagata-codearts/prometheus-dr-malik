@@ -567,7 +567,6 @@ background-color: #fff;
 .custom-bef-aft {
   position: relative;
   z-index: 9;
-  margin-bottom: 200px;
 }
 .custom-bef-aft::before {
   content: '';
@@ -646,7 +645,31 @@ background-color: #fff;
 /* AFTER BEFORE SECTION */
 
 
-
+/* TESTIMONIALS SECTION */
+.custom-tes-wrap {
+  margin-top: 32px;
+}
+.custom-tes-wrap .content p {
+  font-size: 21px;
+  color: #757575;
+  line-height: 39px;
+}
+.custom-tes-wrap .content .client-name {
+  font-size: 17px;
+  font-family: var(--ff-secondary);
+  color: var(--c-secondary);
+  font-weight: 300;
+  line-height: 35px;
+  padding-top: 16px;
+  display: inline-block;
+}
+.custom-tes-wrap .content {
+  padding-left: 46px;
+}
+.custom-tes-wrap .owl-nav {
+  display: none;
+}
+/* TESTIMONIALS SECTION */
 
 
 /* FOOTER SECTION START */
