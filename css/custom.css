@@ -507,7 +507,7 @@ padding-left: 50px;
 /* PROCEDURE SECTION */
 .custom-procedure {
   background-size: cover;
-  background-position: top right;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .custom-procedure.custom-pad {
