@@ -626,6 +626,9 @@ background-color: #fff;
   color: #fff;
   border-bottom-color: #291c2d;
 }
+.gallery-box-wrap .custom-button {
+  margin-right: 0;
+}
 .custom-bef-aft-content .gallery-image img {
   width: 100%;
   height: 321px;
