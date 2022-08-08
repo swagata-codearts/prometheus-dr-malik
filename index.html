@@ -35,7 +35,7 @@
               <div class="custom-navbar-right me-0">
                 <a class="custom-navbar-tel" href="tel:888.365.1333">
                   <span class="demo"><img src="./images/header-call-icon.png" alt="Header Call Icon"></span>
-                  888.365.1333
+                  <p class="demo d-none d-md-block">888.365.1333</p>
                 </a>
                 <a class="custom-button" href="javascript:void(0)">SCHEDULE CONSULT</a>
                 <button class="navbar-toggler custom-navbar-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -73,7 +73,7 @@
   <section class="banner-section" >
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-1 ms-0">
+        <div class="col-md-1 col-12  ms-0">
           <div class="banner-left-wrap">
             <div class="top-text">
               <p class="demo">PROCEDURE FOR MAXIMUM PENIS ENLARGEMENT</p>
@@ -87,14 +87,14 @@
               </ul>
             </div>
             <div class="bottom-text">
-              <a href="javascript:void(0)">
+              <a href="#custom-feature">
                 <span class="demo"><i class="fas fa-arrow-left"></i></span>
                 Scroll down
               </a>
             </div>
           </div>
         </div>
-        <div class="col-md-11 pe-0">
+        <div class="col-md-11 col-12 ps-0 pe-0">
           <div class="banner-right-wrap">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
               <div class="container-fluid">
@@ -110,7 +110,7 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="./images/banner-1.jpg" class="d-block w-100" alt="A man in blue suit">
-                  <div class="carousel-caption custom-carousel-caption d-none d-md-block">
+                  <div class="carousel-caption custom-carousel-caption ">
                     <h5>Ignite Your Confidence
                       Permanently.</h5>
                     <p>The Minimally Invasive Procedure for Maximum Penis Enlargement</p>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="carousel-item">
                   <img src="./images/banner-1.jpg" class="d-block w-100" alt="A man in blue suit">
-                  <div class="carousel-caption custom-carousel-caption d-none d-md-block">
+                  <div class="carousel-caption custom-carousel-caption ">
                     <h5>Ignite Your Confidence
                       Permanently.</h5>
                     <p>The Minimally Invasive Procedure for Maximum Penis Enlargement</p>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="carousel-item">
                   <img src="./images/banner-1.jpg" class="d-block w-100" alt="A man in blue suit">
-                  <div class="carousel-caption custom-carousel-caption d-none d-md-block">
+                  <div class="carousel-caption custom-carousel-caption ">
                     <h5>Ignite Your Confidence
                       Permanently.</h5>
                     <p>The Minimally Invasive Procedure for Maximum Penis Enlargement</p>
@@ -152,7 +152,7 @@
     </div>
   </section>
 
-  <section class="custom-feature custom-pad">
+  <section id="custom-feature" class="custom-feature custom-pad">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -188,18 +188,30 @@
   <section class="custom-benefits-to-work custom-pad">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12">
           <div class="custom-benefits-left">
             <div class="image-w">
               <img src="./images/about-us-img.jpg" alt="A woman explaining the benefits of working with us">
             </div>
             <div class="watch-video-section d-flex align-items-center">
               <h4 class="ms-0">Benefits of <br> Working With Us</h4>
-              <h4 class="video me-0">Watch Video <span class="demo"><i class="fas fa-play"></i></span></h4>
+              <h4 class="video me-0" data-bs-toggle="modal" data-bs-target="#exampleModal">Watch Video <span class="demo"><i class="fas fa-play"></i></span></h4>
+            </div>
+            <div class="modal custom-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header me-2">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <iframe  src="https://www.youtube.com/embed/LXb3EKWsInQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12">
           <div class="custom-benefits-right">
             <div class="custom-heading">
               <span class="sub-heading"></span>
@@ -227,7 +239,7 @@
         </div>
       </div>
       <div class="row child-select">
-        <div class="col-md-4 pe-0">
+        <div class="col-lg-4 col-md-6 col-12 pe-sm-0 px-3">
           <div class="why-choose-us-box">
             <div class="cus-icon">
               <img src="./images/why-choose-icon-1.png" alt="">
@@ -240,7 +252,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 p-0">
+        <div class="col-lg-4 col-md-6 col-12 p-sm-0 px-3">
           <div class="why-choose-us-box">
             <div class="cus-icon">
               <img src="./images/why-choose-icon-2.png" alt="">
@@ -254,7 +266,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 ps-0">
+        <div class="col-lg-4 col-md-6 col-12 ps-sm-0 px-3">
           <div class="why-choose-us-box">
             <div class="cus-icon">
               <img src="./images/why-choose-icon-3.png" alt="">
@@ -268,7 +280,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 pe-0">
+        <div class="col-lg-4 col-md-6 col-12 pe-sm-0 px-3">
           <div class="why-choose-us-box">
             <div class="cus-icon">
               <img src="./images/why-choose-icon-4.png" alt="">
@@ -282,7 +294,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 p-0">
+        <div class="col-lg-4 col-md-6 col-12 p-sm-0 px-3">
           <div class="why-choose-us-box">
             <div class="cus-icon">
               <img src="./images/why-choose-icon-5.png" alt="">
@@ -296,7 +308,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 ps-0">
+        <div class="col-lg-4 col-md-6 col-12 ps-sm-0 px-3">
           <div class="why-choose-us-box">
             <div class="cus-icon">
               <img src="./images/why-choose-icon-6.png" alt="">
@@ -350,7 +362,7 @@
         </div>
       </div>
       <div class="row child-select">
-        <div class="col-md-4 pe-0">
+        <div class="col-lg-4 col-md-6 col-12 pe-0">
           <div class="why-choose-us-box">
             <div class="cus-icon">
               <img src="./images/result-icon-1.png" alt="">
@@ -364,7 +376,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 p-0">
+        <div class="col-lg-4 col-md-6 col-12 p-0">
           <div class="why-choose-us-box">
             <div class="cus-icon">
               <img src="./images/result-icon-2.png" alt="">
@@ -378,7 +390,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 ps-0">
+        <div class="col-lg-4 col-md-6 col-12  ps-0">
           <div class="why-choose-us-box">
             <div class="cus-icon">
               <img src="./images/result-icon-3.png" alt="">
@@ -541,7 +553,7 @@
 
             <div id="custom-owl" class="owl-carousel owl-theme">
               <div class="item custom-item">
-                <div class="d-flex align-items-center">
+                <div class="d-flex flex-md-row flex-column align-items-center">
                   <div class="flex-shrink-0">
                     <img src="./images/tes-client-img-1.png" alt="...">
                   </div>
@@ -554,7 +566,7 @@
                 </div>
               </div>
               <div class="item custom-item">
-                <div class="d-flex align-items-center">
+                <div class="d-flex flex-md-row flex-column align-items-center">
                   <div class="flex-shrink-0">
                     <img src="./images/tes-client-img-1.png" alt="...">
                   </div>
@@ -567,7 +579,7 @@
                 </div>
               </div>
               <div class="item custom-item">
-                <div class="d-flex align-items-center">
+                <div class="d-flex flex-md-row flex-column align-items-center">
                   <div class="flex-shrink-0">
                     <img src="./images/tes-client-img-1.png" alt="...">
                   </div>
@@ -580,7 +592,6 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -592,14 +603,14 @@
     <div class="custom-footer-top">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3 align-self-center">
-            <div class="footer-content">
+          <div class="col-lg-3 col-12 align-self-center">
+            <div class="footer-content mt-0">
               <div class="footer-logo">
                 <img src="./images/header-logo.png" alt="Prometheus by Dr. Malik Logo">
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-12">
             <div class="footer-content">
               <div class="footer-heading">
                 <h4>Quick links</h4>
@@ -617,7 +628,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-lg-2 col-12">
             <div class="footer-content ms-md-5">
               <div class="footer-heading">
                 <h4>Social</h4>
@@ -630,7 +641,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-12">
             <div class="footer-content">
               <div class="footer-heading">
                 <h4>Contact us </h4>

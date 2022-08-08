@@ -21,10 +21,10 @@ jQuery('#custom-feature-owl').owlCarousel({
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
-            items:1
+            items:3
         },
         1000:{
             items:5
@@ -35,6 +35,10 @@ jQuery('#custom-feature-owl').owlCarousel({
 
 
 jQuery(document).ready(function(){
+    jQuery(".custom-navbar-toggle").click(function()    {
+        jQuery(this).toggleClass("toggle-wrap")
+    })
+
     jQuery( ".gallery-a-btn" ).each(function() {
         jQuery(this).on("click", function(){
         jQuery(this).parent().toggleClass('cus-hide')
