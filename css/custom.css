@@ -94,15 +94,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-button {
   display: inline-block;
-  margin-right: 55px;
-  padding: 20px 40px;
+  padding: 22px 40px 20px;
   background-color: var(--c-primary);
   color: #000;
   font-family: var(--ff-secondary);
   font-weight: 700;
   font-size: 16px;
+  letter-spacing: 0.5px;
   border-bottom: 3px solid var(--c-primary-dark);
   text-transform: uppercase;
+  transition: all 0.5s;
+}
+.custom-button:hover {
+  background-color: var(--c-primary-dark);
+  color: #000;
 }
 .custom-heading {
   position: relative;
@@ -115,6 +120,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 3px;
   background-color: #cdac82;
   bottom: 0;
+}
+.custom-heading.text-center::after {
+  right: 0;
+  left: 0;
+  margin: 0 auto;
 }
 .custom-heading .section-heading {
   font-family: var(--ff-primary);
@@ -130,7 +140,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-secondary);
   font-weight: 300;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  display: inline-block;
 }
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-start=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
@@ -171,7 +182,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
 }
-.custom-navbar-tel {
+.custom-navbar-tel  {
+  display: flex;
+}
+.custom-navbar-tel p {
   margin-right: 60px;
   color: var(--tc-beige);
   font-family: var(--ff-tertiary);
@@ -192,6 +206,7 @@ font-weight: 400;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 55px;
 }
 .navbar-toggler .icon-bar { width: 60px;height: 2px; background: #fff;transition: .5s ease;}
 .offcanvas {background-color: var(--c-secondary);}
@@ -268,17 +283,17 @@ font-weight: 400;
 .banner-left-wrap .bottom-text a span {
   margin-top: 16px;
 }
-.top-text {
+/* .top-text {
   margin-right: 47px;
-}
+} */
 .banner-socials {
   margin-top: 74px;
   margin-bottom: 50px;
-  margin-right: 47px;
+  /* margin-right: 47px; */
 }
-.bottom-text {
+/* .bottom-text {
   margin-right: 47px;
-}
+} */
 .banner-socials li {
   padding-bottom: 25px;
 }
@@ -352,6 +367,9 @@ margin-bottom: 6px;
 .custom-feature{
   background-color: #faf7f2;
 }
+#custom-feature-owl .owl-nav {
+  display: none;
+}
 .custom-feature {
   background-color: #faf7f2;
   position: relative;
@@ -362,6 +380,7 @@ margin-bottom: 6px;
   background-image: url(../images/featured-after-captcha.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
+  background-size: contain;
 }
 .custom-feature::after{
   content: '';
@@ -401,6 +420,16 @@ margin-bottom: 6px;
 z-index: 999;
 position: relative;
 }
+.watch-video-section::after {
+  width: 0;
+  height: 0;
+  border-bottom: 85px solid #362938;
+  border-right: 100px solid transparent;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -100px;
+}
 .watch-video-section .video span {
   width: 35px;
   height: 35px;
@@ -422,6 +451,9 @@ position: relative;
   text-transform: uppercase;
 
 }
+.custom-modal .modal-header {
+  border: none;
+}
 .custom-heading .section-heading {
   font-family: var(--ff-primary);
   font-weight: 600;
@@ -431,13 +463,13 @@ position: relative;
   padding-left: 54px;
 }
 .custom-benefits-content {
-  padding-top: 46px;
+    padding-top: 35px;
 }
 .custom-benefits-content h4 {
   font-family: var(--ff-secondary);
   font-weight: 700;
   font-size: 22px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   color: #362937;
   line-height: 27px;
 }
@@ -447,7 +479,7 @@ position: relative;
   color: #757575;
   font-size: 17px;
   line-height: 33px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 /* BENEFITS TO WORK SECTION START */
 
@@ -509,6 +541,7 @@ padding-left: 50px;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  position: relative;
 }
 .custom-procedure.custom-pad {
   padding: 160px 0;
@@ -560,6 +593,11 @@ background-color: #fff;
 .custom-results .dr-farhan-wrap .dr-farhan-right .content p {
   color: #757575;
 }
+.dr-farhan-image img {
+  width: 100%;
+}
+
+
 /* RESULTS SECTION */
 
 /* AFTER BEFORE SECTION */
@@ -653,6 +691,9 @@ background-color: #fff;
 
 
 /* TESTIMONIALS SECTION */
+.custom-testimonials {
+  background-color: #f8f9fa;
+}
 .custom-tes-wrap {
   margin-top: 32px;
 }
