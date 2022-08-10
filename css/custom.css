@@ -1175,7 +1175,7 @@ object-fit: contain;
   padding-bottom: 60px;
 }
 .contact-form-two-section {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 .form-left-image img {
   width: 100%;
@@ -1220,7 +1220,10 @@ input.custom-button {
 input:focus-visible {
   outline: none;
 }
-
+.custom-map iframe  {
+  width: 100%;
+  height: 450px;
+}
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ contact us page end 10-08-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
