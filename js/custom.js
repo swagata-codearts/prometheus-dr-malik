@@ -55,4 +55,18 @@ jQuery(document).ready(function(){
         jQuery(this).parent().parent().siblings('.gallery-image ').removeClass('cus-hide')
         jQuery(this).parent().parent('.gallery-img-box').addClass('cus-hide')
     })
+
+    jQuery('.count-number').each(function () {
+        jQuery(this).prop('Counter',0).animate({
+            Counter: jQuery(this).text()
+        }, {
+          
+          //chnage count up speed here
+            duration: 4000,
+            easing: 'swing',
+            step: function (now) {
+                jQuery(this).text(Math.ceil(now));
+            }
+        });
+    });
 }); 
