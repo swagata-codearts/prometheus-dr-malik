@@ -1412,6 +1412,9 @@ top: -30px;
 .details-right-content .custom-imglist .imglist-image-link img {
   width: 100%;
 }
+.title-wrap .custom-heading {
+  padding-bottom: 15px;
+}
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ services details page end 10-08-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+ INNER PAGE END 29-07-2022 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
